@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+
 function Footer() {
     return (
         <section className="footer">
@@ -28,13 +29,13 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
-                    <Link className="link" to="./Header">
-                        <h5>Quick Links</h5>
-                        <p>Home</p>
-                        <p>About Specialist</p>
-                        <p>Procedures</p>
-                        <p>Book Appointment</p>
-                    </Link>
+
+                    <h5>Quick Links</h5>
+                    <p>Home</p>
+                    <p>About Specialist</p>
+                    <p>Procedures</p>
+                    <p>Book Appointment</p>
+
                 </div>
             </div>
             <div className="Footer">

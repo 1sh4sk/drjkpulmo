@@ -10,6 +10,7 @@ import AboutSpecialist from './AboutSpecialist';
 import CardDetails from './CardDetails';
 import Procedures from './Procedures';
 import ReachUs from './ReachUs';
+import Suppportive from './Supportive';
 import Footer from './Footer';
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/AboutSpecialist" element={<AboutSpecialist />} />
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/CardDetails" element={<CardDetails />} />
+          <Route path="/Supportive" element={<Suppportive />} />
           <Route path="/ReachUs" element={<ReachUs />} />
         </Routes>
         <Footer />

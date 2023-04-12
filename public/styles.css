@@ -16,6 +16,7 @@ body{
     color: #6A6A6A;
     text-align: justify;
     position: relative;
+    padding-top: 100px
     /* padding-bottom: 500px; */
 }
 
@@ -69,7 +70,9 @@ h1, h2, h4, h5 {
     padding: 0 60px;
     background: #BBEDD4 !important;
     position: fixed;
-    z-index: 1;
+    top: 0px;
+    left:0px;
+    z-index: 5;
 }
 
 .nav-item{
@@ -99,15 +102,18 @@ h1, h2, h4, h5 {
 /* landing page start  */
 .landing-page{
     width: 100vw;
-    height: 900px;
+    height: 800px;
     background-image: url("./images/landing-img.webp");
     background-repeat: no-repeat;
     background-size: 1706px auto;
+    background-position-y: -80px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
     padding-left: 90px;
+    padding-bottom: 70px;
     margin: 0;
+    margin-top: -20px;
 }
 
 
@@ -330,7 +336,8 @@ hr{
 .cardImageContainer img{
     width: 100%;
     height: 160px;
-    object-fit: cover;
+    /* object-fit: cover; */
+    /* object-position: -40px center; */
 }
 
 .textContainer{
@@ -342,10 +349,6 @@ hr{
 /* Procedures section end  */
 
 /* supportive care start  */
-/* .carousal{
-    width: 1500px;
-    height: 500px;
-} */
 
 .carousel{
     width: 80vw;
@@ -354,7 +357,8 @@ hr{
 }
 
 .carousel-img{
-    object-fit: center;
+
+    object-fit: cover;
 }
 
 .carousel-indicators button{
@@ -365,8 +369,12 @@ hr{
 
 .carousel-item{
     height: 500px;
-    bottom: 2rem; 
+    
 } 
+
+.carousel-caption{
+    bottom: 2rem; 
+}
 
 .carousel-bg{
     display: flex !important;
@@ -470,14 +478,14 @@ hr{
     }
 
     .heading{
-        font-size: 25px;
+        font-size: 22px;
         margin-bottom: 20px;
         text-align: center;
     }
 
     .content{
         margin: 0 40px 50px 40px ;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
 
 
@@ -500,6 +508,8 @@ hr{
 
     .landing-page{
         padding: 0 30px;
+        margin-top: -40px;
+        margin-bottom: 50px;
         height: 80vh;
         background-position: -800px -100px;
         text-align: center;
@@ -603,24 +613,28 @@ hr{
 
    .treatmentContainer{
     margin:0;
+    display: flex;
+    justify-content: space-between;
    }
 
+
    .card-details{
-    width: 350px;
-    height: 600px;
+    /* width: 170px;
+    height: 200px; */
     top: 140px;
     left: 20px;
-    padding: 20px;
+    padding: 0px;
 }
 
 .card-details h1{
     font-size: 18px;;
 }
 
-   .cardCover{
-    width: 130px;
+.cardCover{
+    width: 150px;
     height: 180px;
-    margin: 10px 20px;
+    margin: 10px 10px;
+    
 }
 
 .cardCover p, .descContainer{
@@ -634,9 +648,10 @@ hr{
 }
 
 .cardImageContainer img{
-    /* width: 200px; */
     height: 100px;
+    object-position: -40px center; 
 }
+
 
 .textContainer{
     padding: 35px 10px;
@@ -651,6 +666,10 @@ hr{
    .carousel-item{
     height: 250px;
     bottom: 0rem; 
+    }
+
+    .carousel-caption{
+        bottom:2rem;
     }
 
     .carousel-bg{

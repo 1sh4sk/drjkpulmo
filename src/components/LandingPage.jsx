@@ -15,7 +15,7 @@ function LandingPage() {
             </section>
 
             <section>
-                <div className="content">
+                <div className="content content-padding">
                     <h1 className="heading">
                         About Specialist
                     </h1>
