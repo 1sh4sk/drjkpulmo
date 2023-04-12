@@ -189,6 +189,7 @@ hr{
     height: 100vh;
     background-image: url("./images/doctor-img.webp");
     background-repeat: no-repeat;
+    background-position-x: -150px;
     background-size: cover;
     display: flex;
     align-items: center; 
