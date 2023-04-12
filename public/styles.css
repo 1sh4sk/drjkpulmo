@@ -56,13 +56,6 @@ h1, h2, h4, h5 {
     margin-top: 20px;
 }
 
-/* .footer{
-    position:sticky;
-    left:0;
-    bottom:0;
-    right:0;
-} */
-
 /* navbar start  */
 
 .navbar{
@@ -200,6 +193,7 @@ hr{
     display: flex;
     align-items: center; 
     justify-content: center;
+    margin-top:-40px;
 }
 
 .background-container{
@@ -265,7 +259,7 @@ hr{
 
 
 .card-details{
-    width: 1000px;
+    width: 350px;
     height: 500px;
     display:flex;
     align-items: center;
@@ -274,6 +268,7 @@ hr{
     background-color:  rgb(182, 236, 210, 0.4);
     padding: 100px;
     margin-bottom: 200px;
+    margin-top: -120px;
     position: relative;
     top: 170px;
     left: 250px;
@@ -782,7 +777,7 @@ hr{
         height: 60vh;
         background-position: -500px -60px;
         text-align: center;
-
+        margin-top: -30px;
     }
 
     .landing-page h1{
@@ -800,8 +795,7 @@ hr{
    .about-img{
     width: 350px;
     height: 350px;
-    margin-top: 150px;
-    margin-left: -50px;
+    margin-top: 100px;
    }
 
    .about-content{
