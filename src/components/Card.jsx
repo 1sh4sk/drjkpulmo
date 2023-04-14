@@ -16,7 +16,6 @@ export default function Card({item}) {
             {/* Text block start */}
             <div className="textContainer">
                 <p>{item.title}</p>
-                <p className="descContainer">{item.description}</p>
             </div>
             {/* Text block end */}
         </div>

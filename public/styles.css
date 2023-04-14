@@ -260,8 +260,8 @@ hr{
 
 
 .card-details{
-    width: 350px;
-    height: 500px;
+    width: 1050px;
+    height: 700px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +269,7 @@ hr{
     background-color:  rgb(182, 236, 210, 0.4);
     padding: 100px;
     margin-bottom: 200px;
-    margin-top: -120px;
+    margin-top: -150px;
     position: relative;
     top: 170px;
     left: 250px;
@@ -280,7 +280,8 @@ hr{
 .card-details h1{
     color: #2a2a2a;
     margin-bottom: 30px;
-    font-size: 36px;;
+    font-size: 36px;
+    text-align: center;
 }
 
 .card-details p{
@@ -304,21 +305,17 @@ hr{
     text-align: center;
 }
 
-.cardCover p, .descContainer{
+.cardCover p{
     font-size: 18px;
     font-weight: 600;   
     margin-bottom: 0;
-}
-    
-.descContainer{
-    visibility: hidden;
 }
 
 .cardCover:hover{
     box-shadow: 7px 6px 11px 1px rgb(0 0 0 / 15%);
 }
 
-.cardCover:hover .descContainer{
+.cardCover:hover{
     visibility: visible;
     transition: opacity 0.3s;
     opacity: 1;
@@ -352,9 +349,12 @@ hr{
     margin: 0 auto;
 }
 
-.carousel-img{
+.w-100{
+    height: 800px;
+   }
 
-    object-fit: cover;
+.carousel-img{
+    object-position: center center;
 }
 
 .carousel-indicators button{
@@ -378,6 +378,7 @@ hr{
     flex-direction: column !important;
     height: 250px;
     background-color: rgb(0, 0, 0, 0.4);
+    padding: 0 20px;
 }
 
 .carousel-bg h1{
@@ -426,13 +427,12 @@ hr{
 
 
 /* footer start  */
+
 .Links {
     width: 100vw;
     height: 450px;
     background: #0093dd;
     padding: 70px 100px;
-    display: flex;
-    justify-content: space-between;
   }
 
   .Section {
@@ -615,16 +615,16 @@ hr{
 
 
    .card-details{
-    /* width: 170px;
-    height: 200px; */
+    width: 350px;  
     top: 140px;
     left: 20px;
-    padding: 0px;
+    padding: 0px 20px;
 }
 
 .card-details h1{
-    font-size: 18px;;
+    font-size: 18px;
 }
+
 
 .cardCover{
     width: 150px;
@@ -633,7 +633,7 @@ hr{
     
 }
 
-.cardCover p, .descContainer{
+.cardCover p{
     font-size: 12px;
     font-weight: 500;   
     margin-bottom: 0;
@@ -659,6 +659,10 @@ hr{
     height: 250px;
    }
 
+   .w-100{
+    height: 250px;
+   }
+
    .carousel-item{
     height: 250px;
     bottom: 0rem; 
@@ -669,15 +673,15 @@ hr{
     }
 
     .carousel-bg{
-        height:150px
+        height: 170px
     }
 
     .carousel-bg h1{
-        font-size: 24px ;
+        font-size: 20px ;
     }
 
     .carousel-bg p{
-        font-size: 14px;
+        font-size: 12px;
     }
     
    /* carousel end  */
@@ -864,13 +868,13 @@ hr{
 
    .card-details{
     width: 700px;
-    height: 400px;
+    /* height: 600px; */
     top: 140px;
     left: 90px;
 }
 
 .card-details h1{
-    font-size: 28px;;
+    font-size: 28px;
 }
 
 
@@ -897,6 +901,10 @@ hr{
    /* carousel start  */
    .carousel{
     height: 250px;
+   }
+
+   .w-100{
+    height: 350px;
    }
 
    .carousel-item{

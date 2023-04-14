@@ -21,7 +21,9 @@ function Timings() {
                         </div>
                         <hr />
                         <div className="timings">
-                            <p>Thurday</p><p>9:00 AM - 2:00 PM</p>
+                            <p>Thursday</p>
+                            <div><p>9:00 AM - 2:00 PM</p>
+                            <p>6:00 PM - 8:00 PM</p></div>
                         </div>
                         <hr />
                         <div className="timings">
@@ -49,16 +51,16 @@ function Timings() {
                             <p>Tuesday</p>
                             <div className="timings-content">
                                 <p>2:00 PM - 6:00 PM</p>
-                                <p className="timing-para">Gokul Raja Medicals, Jayakondam</p>
+                                <p className="timing-para">Gokula Raja Medicals, Jayakondam</p>
                             </div>
                         </div>
                         <hr />
                         <div className="timings">
-                            <p>Thurday</p>
+                            <p>Thursday</p>
                             <div className="timings-content">
                                 <p>2:00 PM - 6:00 PM</p>
                                 <p className="timing-para">Mahalakshmi Hospital,
-                                    Ulundhurpet, Kalakuruchi post</p>
+                                    Ulundhurpet</p>
                             </div>
                         </div>
                         <hr />

@@ -27,7 +27,7 @@ function LandingPage() {
                         <div className="about-content col-md-6 col-sm-12">
                             <h1>Dr. Jayakumar</h1>
                             <h2>pulmonologist, sleep specialist, allergist/immunologist, Intensivist and Infectious disease specialist</h2>
-                            <p>who has a thriving experience of more than 10 years. He is specialised in diagnosing and treating lung conditions like Asthma, Bronchiectasis, Acute respiratory distress syndrome, COPD, Cor pulmonate, Sleep Apnoea. The doctor has exemplary experience in treating Breathlessness, Chest pain, Haemoptysis, Pleural effusion, Chronic cough, Respiratory infection. He has the best treatment in Eosinophilic lung disease, Pneumothorax, Pulmonary hypertension, Sarcoidosis, Pulmonary thromboembolic disease, Upper Airway diseases. His supportive care of treatment includes ....</p>
+                            <p>Dr. Jayakumar is one of the reputed Pulmonologist, Sleep Medicine Specialist, Allergist/Immunologist, Intensivist and Infectious disease specialist with a thriving experience of more than 10 years. He is specialised in diagnosing and treating lung conditions like Asthma, Bronchiectasis, Acute respiratory distress syndrome, COPD, Cor pulmonate, Sleep Apnoea. The doctor has exemplary experience in treating Breathlessness, Chest pain, Haemoptysis, Pleural effusion, Chronic cough, Respiratory infection. He has the best treatment in Eosinophilic lung disease, Pneumothorax,  ....</p>
                             <div className="about-btn"><Link to="/AboutSpecialist"><button type="button" className="btn btn-primary btn-lg">Know More...</button></Link></div>
 
                         </div>
