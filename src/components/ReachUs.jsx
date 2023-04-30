@@ -45,13 +45,8 @@ function ReachUs() {
 
 
                 <div className="Map col-lg-6 col-md-6 col-sm-12">
-                    <iframe
-                        title="Google Maps"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15638.003218866053!2d79.31813461932855!3d11.515888694993453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab4a796cb7ceaf%3A0xe7cd39ca29dbafb1!2sVirudhachalam%2C%20Tamil%20Nadu%20606001!5e0!3m2!1sen!2sin!4v1680868186352!5m2!1sen!2sin"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.434453517827!2d79.32148471744384!3d11.5206605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab4a7003d2bae9%3A0x9eda257ef2a4c3ff!2sDr%20Adhi%20Polyclinic!5e0!3m2!1sen!2sin!4v1682864047373!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

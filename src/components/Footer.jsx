@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
+    function handleClick(){
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }
     return (
         <section className="footer">
 
             <div className="Links row">
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
-                    <Link className="link" to="./Procedures">
+                    <Link className="link" to="./Procedures" onClick={handleClick}>
                         <h5>Procedures</h5>
                         <p>Pulmonary Function Test (PFT)</p>
                         <p>Bronchoscopy</p>
@@ -20,7 +23,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
-                    <Link className="link" to="./Supportive">
+                    <Link className="link" to="./Supportive" onClick={handleClick}>
                         <h5>Supportive Care</h5>
                         <p>Inhalers</p>
                         <p>Nebulizers</p>
@@ -31,11 +34,11 @@ function Footer() {
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
 
                     <h5>Quick Links</h5>
-                    <Link className="link" to="/"><p>Home</p></Link>
-                    <Link className="link" to="./AboutSpecialist"><p>About Specialist</p></Link>
-                    <Link className="link" to="./Procedures"><p>Procedures</p></Link>
-                    <Link className="link" to="./Supportive"><p>Supportive Care</p></Link>
-                    <Link className="link" to="./ReachUs"><p>Reach Us</p></Link>
+                    <Link className="link" to="/" onClick={handleClick}><p>Home</p></Link>
+                    <Link className="link" to="./AboutSpecialist" onClick={handleClick}><p>About Specialist</p></Link>
+                    <Link className="link" to="./Procedures" onClick={handleClick}><p>Procedures</p></Link>
+                    <Link className="link" to="./Supportive" onClick={handleClick}><p>Supportive Care</p></Link>
+                    <Link className="link" to="./ReachUs" onClick={handleClick}><p>Reach Us</p></Link>
                     <p>Book Appointment</p>
 
                 </div>
