@@ -8,15 +8,15 @@ function ReachUs() {
             <h1 className="heading">Reach Us</h1>
 
             <div className="row">
-                <div className=" Detailscol-lg-6 col-md-6 col-sm-12">
+                <div className="details col-lg-6 col-md-6 col-sm-12">
                     <div className="box">
                         <div className="Icon">
                             <i class="fa-icon fa-solid fa-phone fa-2xl"></i>
                         </div>
                         <div className="text">
                             <h4>Call Us Now:</h4>
-                            <p>Cell: +91 8754806668</p>
-                            <p>WhatsApp: +91 7708608596</p>
+                            <p>Cell: +91 92629191821</p>
+                            <p>WhatsApp: +91 92629191821</p>
                         </div>
                     </div>
                     <div className="box">
@@ -25,8 +25,7 @@ function ReachUs() {
                         </div>
                         <div className="text">
                             <h4>Visit Our Clinic:</h4>
-                            <p>ABC Colony, Tamil Nadu</p>
-                            <p>Pincode 756 453</p>
+                            <p>Dr Adhi Polyclinic, 809, Junction Rd, College Nagar, VIrudhachalam, Tamil Nadu - 606 001</p>
                         </div>
                     </div>
                     <div className="box">
@@ -35,7 +34,7 @@ function ReachUs() {
                         </div>
                         <div className="text">
                             <h4>Send A Message:</h4>
-                            <p className="Link">jayatkmc@gmail.com</p>
+                            <p className="Link">jkpulmocare@gmail.com</p>
                         </div>
                     </div>
                     <div className="Box">

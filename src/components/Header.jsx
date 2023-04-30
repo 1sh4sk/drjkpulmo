@@ -25,6 +25,9 @@ function Header() {
                             <Link className="nav-link" to="./Procedures">PROCEDURES</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="./Supportive">SUPPORTIVE CARE</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="./ReachUs">REACH US</Link>
                         </li>
                         <li className="nav-item">

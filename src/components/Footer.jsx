@@ -9,7 +9,7 @@ function Footer() {
             <div className="Links row">
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
                     <Link className="link" to="./Procedures">
-                        <h5>Pocedures</h5>
+                        <h5>Procedures</h5>
                         <p>Pulmonary Function Test (PFT)</p>
                         <p>Bronchoscopy</p>
                         <p>Thoracoscopy</p>
@@ -31,9 +31,11 @@ function Footer() {
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
 
                     <h5>Quick Links</h5>
-                    <p>Home</p>
-                    <p>About Specialist</p>
-                    <p>Procedures</p>
+                    <Link className="link" to="/"><p>Home</p></Link>
+                    <Link className="link" to="./AboutSpecialist"><p>About Specialist</p></Link>
+                    <Link className="link" to="./Procedures"><p>Procedures</p></Link>
+                    <Link className="link" to="./Supportive"><p>Supportive Care</p></Link>
+                    <Link className="link" to="./ReachUs"><p>Reach Us</p></Link>
                     <p>Book Appointment</p>
 
                 </div>
