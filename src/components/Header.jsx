@@ -31,7 +31,7 @@ function Header() {
                             <Link className="nav-link" to="./ReachUs">REACH US</Link>
                         </li>
                         <li className="nav-item">
-                        <Link to="tel:6369757543"><button type="button" className="btn btn-primary">Book Appointment</button></Link>
+                        <Link to="tel:9629191821"><button type="button" className="btn btn-primary">Book Appointment</button></Link>
                         </li>
                     </ul>
                 </div>

@@ -15,8 +15,8 @@ function ReachUs() {
                         </div>
                         <div className="text">
                             <h4>Call Us Now:</h4>
-                            <p>Cell: +91 92629191821</p>
-                            <p>WhatsApp: +91 92629191821</p>
+                            <p>Cell: +91 9629191821</p>
+                            <p>WhatsApp: +91 9629191821</p>
                         </div>
                     </div>
                     <div className="box">
@@ -38,7 +38,7 @@ function ReachUs() {
                         </div>
                     </div>
                     <div className="Box">
-                        <button type="button" className="btn btn-primary btn-lg appointment-btn">Book Appointment</button>
+                    <Link to="tel:9629191821"><button type="button" className="btn btn-primary btn-lg appointment-btn">Book Appointment</button></Link>
                     </div>
                 </div>
 
