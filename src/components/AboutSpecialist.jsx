@@ -17,10 +17,10 @@ function AboutSpecialist() {
 
             <div className="heading about-heading">
                 <h1 >
-                    DR. JAYAKUMAR
+                    DR. JAYAKUMAR.S
                 </h1>
                 <p>
-                    Consultant Interventional Pulmonologist, Intensivist & Sleep Medicine Specialist
+                    CONSULTANT INTERVENTIONAL PULMONOLOGIST, INVENTIST & SLEEP MEDICINE SPECIALIST
                 </p>
             </div>
 
@@ -33,14 +33,15 @@ function AboutSpecialist() {
 
             <div>
                 <h1 className="heading">Education</h1>
-                <ul className="row content">
-                    <li className="col-lg-4 col-md-6 col-sm-12">MBBS.,</li>
-                    <li className="col-lg-4 col-md-6 col-sm-12">DTCD.,</li>
-                    <li className="col-lg-4 col-md-6 col-sm-12">DNB(Respiratory Medicine).,</li>
-                    <li className="col-lg-4 col-md-6 col-sm-12"> MNAMS.,</li>
-                    <li className="col-lg-4 col-md-6 col-sm-12">FCID.,</li>
-                    <li className="col-lg-4 col-md-6 col-sm-12">FIID(Infectious Diseases).,</li>
-                    <li>EDARM( European diploma in Adult Respiratory Medicine).,</li>
+
+                <ul className="row content education-items">
+                    <li className="col-lg-4 col-md-6 col-sm-12">MBBS.</li>
+                    <li className="col-lg-4 col-md-6 col-sm-12">DTCD.</li>
+                    <li className="col-lg-4 col-md-6 col-sm-12">DNB(Respiratory Medicine).</li>
+                    <li className="col-lg-4 col-md-6 col-sm-12"> MNAMS.</li>
+                    <li className="col-lg-4 col-md-6 col-sm-12">FCID.</li>
+                    <li className="col-lg-4 col-md-6 col-sm-12">FIID(Infectious Diseases).</li>
+                    <li>EDARM( European diploma in Adult Respiratory Medicine).</li>
                 </ul>
             </div>
 

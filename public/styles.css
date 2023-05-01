@@ -19,7 +19,7 @@ body{
     padding-top: 100px
 }
 
-p, .aoe-items{
+p, .aoe-items, .education-items{
     font-weight: 100;
     line-height: 1.7;
 }
@@ -210,13 +210,14 @@ hr{
 
 .about-heading{
     color: #2a2a2a;
+    margin: 40px 20px 0 20px;
 }
 
-.education{
-    margin-left: 70px;
-}
+/* .education-items{
+    font-weight: 100;
+} */
 
-.education, .aoe-container{
+.aoe-container{
     display: flex;
     justify-content: space-between;
 }
