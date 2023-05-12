@@ -9,7 +9,8 @@ function LandingPage() {
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <h1>breathe in life with lungs that last</h1>
                         <p>exceptional pulmo care clinic for all your lung related problems </p>
-                        <Link to="tel:9629191821"><button type="button" className="btn btn-primary btn-lg appointment-btn">Book Appointment</button></Link>
+                        <Link><button type="button" className="btn btn-primary btn-lg appointment-btn">Book Appointment</button></Link>
+                        {/* to="tel:9629191821" */}
                     </div>
                 </div>
             </section>

@@ -39,8 +39,8 @@ function Footer() {
                     <Link className="link" to="./Procedures" onClick={handleClick}><p>Procedures</p></Link>
                     <Link className="link" to="./Supportive" onClick={handleClick}><p>Supportive Care</p></Link>
                     <Link className="link" to="./ReachUs" onClick={handleClick}><p>Reach Us</p></Link>
-                    <Link to="tel:9629191821"><p>Book Appointment</p></Link>
-
+                    <Link><p>Book Appointment</p></Link>
+                    {/* to="tel:9629191821" */}
                 </div>
             </div>
             <div className="Footer">
