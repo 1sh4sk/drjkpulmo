@@ -26,7 +26,7 @@ function ReachUs() {
                         </div>
                         <div className="text">
                             <h4>Visit Our Clinic:</h4>
-                            <p>Dr Adhi Polyclinic, 809, Junction Rd, College Nagar, VIrudhachalam, Tamil Nadu - 606 001</p>
+                            <p>Dr Adhi Polyclinic, 809, Junction Rd, College Nagar, Virudhachalam, Tamil Nadu - 606 001</p>
                         </div>
                     </div>
                     <div className="box">
