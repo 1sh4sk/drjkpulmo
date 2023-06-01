@@ -32,15 +32,15 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="Section col-lg-4 col-md-4 col-sm-12">
-
+                <div>
                     <h5>Quick Links</h5>
                     <Link className="link" to="/" onClick={handleClick}><p>Home</p></Link>
                     <Link className="link" to="./AboutSpecialist" onClick={handleClick}><p>About Specialist</p></Link>
                     <Link className="link" to="./Procedures" onClick={handleClick}><p>Procedures</p></Link>
                     <Link className="link" to="./Supportive" onClick={handleClick}><p>Supportive Care</p></Link>
                     <Link className="link" to="./ReachUs" onClick={handleClick}><p>Reach Us</p></Link>
-                    <Link><p>Book Appointment</p></Link>
-                    {/* to="tel:9629191821" */}
+                    <Link className="link" to="tel:9629191821"><p>Book Appointment</p></Link>
+                    </div>
                 </div>
             </div>
             <div className="Footer">

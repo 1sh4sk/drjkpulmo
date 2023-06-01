@@ -112,7 +112,7 @@ h1, h2, h4, h5 {
 .landing-page h1, .card-details-h1{
     font-family: 'Red Hat Display', sans-serif; 
     color: #2a2a2a;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
 }
 
@@ -430,11 +430,14 @@ hr{
     height: 450px;
     background: #0093dd;
     padding: 70px 100px;
+    
   }
 
   .Section {
     color: #fff;
     font-size: 18px;
+    display: flex;
+    justify-content: space-around;
   }
   
   .Section p{
