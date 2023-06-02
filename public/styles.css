@@ -640,7 +640,7 @@ hr{
    .card-details{
     width: 350px;  
     top: 140px;
-    left: 20px;
+    left: 35px;
     padding: 0px 20px;
 }
 
@@ -730,7 +730,7 @@ hr{
    /* footer starts  */
 
    .Links{
-    height: 700px;
+    height: 800px;
     margin: 0;
     text-align: center;
    }

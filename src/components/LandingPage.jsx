@@ -17,7 +17,7 @@ function LandingPage() {
             <section>
                 <div className="content content-padding">
                     <h1 className="heading">
-                        About Specialist
+                        ABOUT SPECIALIST
                     </h1>
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
@@ -25,11 +25,11 @@ function LandingPage() {
                         </div>
 
                         <div className="about-content col-md-6 col-sm-12">
-                            <h1>Dr. Jayakumar.S</h1>
+                            <h1>Dr. JAYAKUMAR.S</h1>
                             <h2>MBBS.,DTCD.,DNB., MNAMS.,FCID.,FIID.,
                                 EDARM.,
                             </h2>
-                            <h2>CONSULTANT INTERVENTIONAL PULMONOLOGIST, INVENTIST & SLEEP MEDICINE SPECIALIST</h2>
+                            <h2>CONSULTANT INTERVENTIONAL PULMONOLOGIST, INTENSIVIST & SLEEP MEDICINE SPECIALIST</h2>
                             <p>Dr. Jayakumar is one of the reputed Pulmonologist, Sleep Medicine Specialist, Allergist/Immunologist,Intensivist and Infectious disease specialist with a thriving experience of more than 10 years. He is specialized in diagnosing and treating Lung conditions like Asthma, Chronic Cough, COPD, smoking related Lung diseases, Bronchiectasis, Sinusitis, Tuberculosis, Recurrent Pneumonia, Chronic Fever of Unknown Origin, Sleep Apnoea and Sleep related Lung disorders, Pleural Effusion, Acute/Chronic Respiratory Failure, Interstitial Lung disease, ....</p>
                             <div className="about-btn"><Link to="/AboutSpecialist"><button type="button" className="btn btn-primary btn-lg">Know More...</button></Link></div>
 

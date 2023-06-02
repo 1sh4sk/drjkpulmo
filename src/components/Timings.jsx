@@ -41,13 +41,13 @@ function Timings() {
                         <div className="timings">
                             <p>Saturday</p>
                             <div><p>9:00 AM - 2:00 PM</p>
-                                <p>6:00 PM - 8:00 PM</p></div>
+                            </div>
                         </div>
 
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <h1 className="heading timing-heading vch">Visiting Consultant At</h1>
+                        <h1 className="heading timing-heading vch">Visiting Consultant</h1>
 
                         <div className="timings timings-vch">
                             <p>Monday</p>
@@ -89,7 +89,17 @@ function Timings() {
                             <div className="timings-content">
                                 <p>5:00 PM - 8:00 PM</p>
                                 <p className="timing-para">
-                                    BMP Pharmacy Clinic, Neyveli Township.
+                                    BMF(Best Med Familiy) Pharmacy Clinic, Neyveli Township.
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="timings">
+                            <p>Saturday</p>
+                            <div className="timings-content">
+                                <p>3:00 PM - 5:00 PM</p>
+                                <p className="timing-para">
+                                    La Ha Roi Clinic, Vivekananda nagar, Pondicherry.
                                 </p>
                             </div>
                         </div>

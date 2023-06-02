@@ -10,6 +10,7 @@ function Procedures() {
 
     const goToCarddetails=(item)=>{
         navigate('/CardDetails',{state:{item}});
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
           }
 
     return (

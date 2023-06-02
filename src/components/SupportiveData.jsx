@@ -29,22 +29,22 @@ export const SupportiveData =[
         description:"It is a device that Concentrates the oxygen from room air by selectively removing nitrogen and to supply an oxygen enriched gas to the hypoxic patients.",
         img: "./images/supportivecare/oc-img.webp",
     },
+    // {
+    //     id:"6",
+    //     title:"Ventilation: Invasive ventilation:",
+    //     description:"Invasive mechanical ventilation helps stabilize patients with respiratory failure.",
+    //     img: "./images/supportivecare/iv-img.webp",
+    // },
     {
         id:"6",
-        title:"Ventilation: Invasive ventilation:",
-        description:"Invasive mechanical ventilation helps stabilize patients with respiratory failure.",
-        img: "./images/supportivecare/iv-img.webp",
-    },
-    {
-        id:"7",
-        title:"Non invasive ventilation: CPAP:",
-        description:"They supply constant positive pressure during breathing. It is expensive used to treat OSA.",
+        title:"Non invasive ventilation: Bipap:",
+        description:"It is the delivery of ventilatory support via a face mask and therefore eliminating the need of the endo tracheal airway. It includes BIPAP, CPAP, PSV etc.",
         img: "./images/supportivecare/cpap-img.webp",
     },
     {
-        id:"8",
-        title:"BiPaP:",
-        description:"They are positive pressure ventilators. It helps in breathing.",
+        id:"7",
+        title:"CPAP:",
+        description:"",
         img: "./images/supportivecare/bipap-img.webp",
     },
 

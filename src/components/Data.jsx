@@ -47,7 +47,7 @@ export const data = [
     id: 7,
     title: "Sleep Study",
     description: "",
-    explanation: "Sleep study is a comprehensive test used to diagnose sleep disorders during which it records neuronic activity of brain, oxygen level in blood, snoring, apnoe, hyponea, snore index, AHI, heart rate, breathing pattern, eye and leg movements.",
+    explanation: "Sleep study is a comprehensive test used to diagnose sleep disorders during which it records neuronic activity of brain, oxygen level in blood, snoring, apnoea, hyponea, snore index, AHI, heart rate, breathing pattern, eye and leg movements.",
     img: "./images/procedures/Sleepstudy-img.webp",
   },
 ];
