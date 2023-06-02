@@ -150,6 +150,7 @@ h1, h2, h4, h5 {
 .about-content div{
     text-align: center;
 }
+
 /* about specialist home section end  */
 
 
@@ -595,12 +596,12 @@ hr{
    /* aboutapecialist page starts  */
    .about-container{
     height: 70vh;
-    background-position-x: -200px;
+    background-position-x:center;
    }
-
+/* 
    .about-container h1{
     font-size: 35px;
-   }
+   } */
 
    /* .background-container{
     width:350px;
@@ -612,6 +613,11 @@ hr{
     margin: 20px 30px 0 30px;
    }
 
+
+   .about-heading p{
+    font-size: 12px;
+   }
+  
 
    .aoe-container{
     flex-direction: column;

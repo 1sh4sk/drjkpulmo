@@ -89,7 +89,7 @@ function Timings() {
                             <div className="timings-content">
                                 <p>5:00 PM - 8:00 PM</p>
                                 <p className="timing-para">
-                                    BMF(Best Med Familiy) Pharmacy Clinic, Neyveli Township.
+                                    BMF(Best Med Family) Pharmacy Clinic, Neyveli Township.
                                 </p>
                             </div>
                         </div>

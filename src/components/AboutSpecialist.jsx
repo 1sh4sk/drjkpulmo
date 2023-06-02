@@ -19,8 +19,8 @@ function AboutSpecialist() {
                 <h1 >
                     DR. JAYAKUMAR.S
                 </h1>
-                <p>
-                    CONSULTANT INTERVENTIONAL PULMONOLOGIST, INTENSIVISTT & SLEEP MEDICINE SPECIALIST
+                <p classname="sub-heading">
+                    CONSULTANT INTERVENTIONAL PULMONOLOGIST, INTENSIVIST & SLEEP MEDICINE SPECIALIST
                 </p>
             </div>
 
