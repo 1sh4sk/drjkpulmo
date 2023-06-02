@@ -1,6 +1,5 @@
 
 import React from 'react'
-// import classes from './Treatments.module.scss';
 
 export default function Card({item}) {
   return (

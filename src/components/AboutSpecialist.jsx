@@ -4,22 +4,13 @@ function AboutSpecialist() {
     return (
         <section>
 
-            <div className="about-container">
-                {/* <div className="background-container"> */}
-                {/* <h1>
-                        DR. JAYAKUMAR
-                    </h1>
-                    <p>
-                        pulmonologist, sleep specialist, allergist/immunologist, Intensivist and Infectious disease specialist
-                    </p> */}
-                {/* </div> */}
-            </div>
+            <div className="about-container"></div>
 
             <div className="heading about-heading">
                 <h1 >
                     DR. JAYAKUMAR.S
                 </h1>
-                <p classname="sub-heading">
+                <p>
                     CONSULTANT INTERVENTIONAL PULMONOLOGIST, INTENSIVIST & SLEEP MEDICINE SPECIALIST
                 </p>
             </div>
@@ -71,8 +62,6 @@ function AboutSpecialist() {
                         <li><span className="icon"></span>&emsp;Bronchial Stenting</li>
                         <li><span className="icon"></span>&emsp;Bronchial thermoplasty</li>
                         <li><span className="icon"></span>&emsp;Noninvasive ventilation (NIV) &amp; Invasive ventilation (MV)</li>
-                        {/* <li><span className="icon"></span>&emsp;Sleep Apnoea and Hypo ventilation</li>
-                        <li><span className="icon"></span>&emsp;Upper Airway Diseases</li> */}
                     </ul>
                 </div>
             </div>

@@ -29,12 +29,6 @@ export const SupportiveData =[
         description:"It is a device that Concentrates the oxygen from room air by selectively removing nitrogen and to supply an oxygen enriched gas to the hypoxic patients.",
         img: "./images/supportivecare/oc-img.webp",
     },
-    // {
-    //     id:"6",
-    //     title:"Ventilation: Invasive ventilation:",
-    //     description:"Invasive mechanical ventilation helps stabilize patients with respiratory failure.",
-    //     img: "./images/supportivecare/iv-img.webp",
-    // },
     {
         id:"6",
         title:"Non invasive ventilation: Bipap:",
